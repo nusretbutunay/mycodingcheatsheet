@@ -1,3 +1,5 @@
+
+//Count number of occurences of each element and return in object
 const a = [5, 5, 5, 2, 2, 2, 2, 2, 9, 4];
 const result = {};
 
