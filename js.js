@@ -1,3 +1,11 @@
+/*remove any non-alphabet character using regex and convert
+        convert the strings to lowercase. */
+        stringA = stringA.replace(/[^\w]/g, "").toLowerCase()
+        stringB = stringB.replace(/[^\w]/g, "").toLowerCase()
+
+
+
+
 //sort string
 let text ="adsafa"
 let a=text.split("").sort();
