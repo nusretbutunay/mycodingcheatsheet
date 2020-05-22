@@ -1,3 +1,9 @@
+let arr = Object.values(result);
+console.log(arr)
+let min = Math.min(...arr);
+let max = Math.max(...arr);
+
+
 /*remove any non-alphabet character using regex and convert
         convert the strings to lowercase. */
         stringA = stringA.replace(/[^\w]/g, "").toLowerCase()
